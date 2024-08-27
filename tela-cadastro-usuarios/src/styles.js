@@ -57,7 +57,7 @@ export const Input = styled.input`
   width: 100%;
 `;
 
-export const InputLabel = styled.input`
+export const InputLabel = styled.div`
   color: #ffffff;
   font-size: 12px;
   font-weight: 500;

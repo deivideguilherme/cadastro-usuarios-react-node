@@ -17,3 +17,4 @@ model User {
 
 // Informações mongoDB
 // Usuário e senha para conexão com o banco:  deivideguilherme / Dc140912
+// Caminho do banco: mongodb+srv://deivideguilherme:Dc140912@users.hhk3c.mongodb.net/Users?retryWrites=true&w=majority&appName=Users

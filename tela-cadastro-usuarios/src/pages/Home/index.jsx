@@ -8,14 +8,11 @@ import {
   Input,
   InputLabel,
   Title,
-  TopBackground,
 } from "./styles";
-
-//Importando as imagens do projeto
-import UsersImage from "../../assets/users.png";
 
 //Importando componentes do projeto
 import Button from "../../components/Button";
+import TopBackground from "../../components/TopBackground";
 
 function Home() {
   const inputName = useRef();
@@ -34,9 +31,7 @@ function Home() {
 
   return (
     <Container>
-      <TopBackground>
-        <img src={UsersImage} alt="Imagem-Usuarios" />
-      </TopBackground>
+      <TopBackground />
 
       <Form>
         <Title>Cadastrar Usuário</Title>
